@@ -1,0 +1,17 @@
+.btn-encomendar-fixo {
+  background: #4edb42;
+  color: #c5ffc0;
+  font-weight: 600;
+  border-radius: 4px;
+  position: fixed;
+  padding: 16px;
+  bottom: 20px;
+  right: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-encomendar-fixo:hover {
+  background: #3a9d31;
+  color: #fff;
+}
