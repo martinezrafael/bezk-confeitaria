@@ -58,7 +58,7 @@
 /* NOVIDADES */
 .novidades {
   width: 100%;
-  margin-bottom: 600px;
+  margin-bottom: 120px;
 }
 
 .novidades__container {
@@ -77,92 +77,4 @@
 
 .novidades__title___ponto {
   color: #b99470;
-}
-
-.novidades__produtos {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.novidades__produtos___lista {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  margin-bottom: 60px;
-}
-
-.novidades__produtos___item {
-  cursor: pointer;
-}
-
-.novidades__produtos___item img {
-  margin-bottom: 12px;
-}
-
-.novidades__produtos___item h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  margin-bottom: 40px;
-}
-
-.novidades__produtos___item h3::after {
-  content: "";
-  display: block;
-  background: #b99470;
-  height: 4px;
-  margin-top: 4px;
-  width: 160px;
-}
-
-.novidades__produtos___item p {
-  color: #141414;
-  font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 18px;
-}
-
-.novidades__produtos___item p span {
-  color: #555555;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.novidades__produtos___item a {
-  background: #b99470;
-  border-radius: 8px;
-  color: #fff2e6;
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 16px 32px;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.novidades__produtos___item a:hover {
-  background: #ad8d6e;
-  color: #fff;
-}
-
-.novidades__vermais {
-  color: #393939;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.novidades__vermais:hover::after {
-  border-radius: 4px;
-  content: "";
-  display: block;
-  background: #393939;
-  height: 4px;
-  margin-top: 4px;
-  width: 100%;
 }

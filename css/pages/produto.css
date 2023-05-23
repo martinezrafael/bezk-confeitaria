@@ -1,0 +1,81 @@
+.produto___item {
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px;
+  transition: all ease-in-out 0.3s;
+}
+
+.produto___item:hover {
+  background: #fff2e6;
+}
+
+.produto___item img {
+  margin-bottom: 12px;
+}
+
+.produto___item h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.produto___item h3::after {
+  content: "";
+  display: block;
+  background: #b99470;
+  height: 4px;
+  margin-top: 4px;
+  width: 160px;
+}
+
+.produto___item p {
+  color: #141414;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.produto___item p span {
+  color: #555555;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.produto___item a {
+  background: #b99470;
+  border-radius: 8px;
+  color: #fff2e6;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.produto___item a:hover {
+  background: #ad8d6e;
+  color: #fff;
+}
+
+.novidades__vermais {
+  color: #393939;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.novidades__vermais:hover::after {
+  border-radius: 4px;
+  content: "";
+  display: block;
+  background: #393939;
+  height: 4px;
+  margin-top: 4px;
+  width: 100%;
+}

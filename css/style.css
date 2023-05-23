@@ -3,3 +3,6 @@
 @import "./components/btn.css";
 @import "./global/header.css";
 @import "./pages/home.css";
+@import "./pages/produtos.css";
+@import "./pages/produto.css";
+@import "./pages/datas-especiais.css";
